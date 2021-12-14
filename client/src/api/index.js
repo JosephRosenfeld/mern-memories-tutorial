@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://api.weatherapi.com/v1/forecast.json";
+const url = "https://mern-memories-tutorial-proj.herokuapp.com/posts";
 
 export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, newPost);
